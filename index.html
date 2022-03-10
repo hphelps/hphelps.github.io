@@ -1,7 +1,332 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <!-- menu -->
+  <div class="grid fixed" id="menu">
+    <nav class="bg-black">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="relative flex items-center justify-between h-16">
+          <div class="hidden sm:block sm:ml-6">
+            <div class="flex space-x-4">
+              <a class="scrollnav text-gray-300 hover:bg-zinc-900 hover:text-white px-3 py-2 rounded text-sm font-medium"
+                href="intro">Home</a>
+              <a class="scrollnav text-gray-300 hover:bg-zinc-900 hover:text-white px-3 py-2 rounded text-sm font-medium"
+                href="skills">Skills</a>
+              <a class="scrollnav text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded text-sm font-medium"
+                href="experience">Experience</a>
+              <a class="scrollnav text-gray-300 hover:bg-gray-900 hover:text-white px-3 py-2 rounded text-sm font-medium"
+                href="contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- intro -->
+  <div class="grid bg-zinc-900 text-gray-200 min-h-screen content-center" id="intro">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-center">
+      <h1 class="text-base font-extrabold tracking-tight text-cyan-700">
+        <span class="block">Hello, world.</span>
+      </h1>
+    </div>
+    <div class="max-w-7xl mx-auto pb-6 px-4 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-center">
+      <h2 class="text-7xl font-extrabold tracking-tight">
+        <span class="block">This is Hezekiah Phelps</span>
+      </h2>
+    </div>
+
+    <div class="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-center">
+      <p class="px-3"> | </p>
+      <p class="font-semibold">Front End Engineer</p>
+      <p class="px-3"> | </p>
+      <p class="font-semibold">UI/UX Architect</p>
+      <p class="px-3"> | </p>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-center">
+      <a class="scrollnav bg-transparent hover:bg-cyan-700 text-cyan-700 font-semibold hover:text-white py-2 px-4 border border-cyan-700 hover:border-transparent rounded transition-all"
+        href="skills">FIND OUT MORE</a>
+    </div>
+  </div>
+
+  <div class="grid-flow-row bg-slate-50 min-h-max p-24 content-center" id="skills">
+    <div class="sm:flex-wrap md:flex">
+      <div class="p-8 px-32 sm:w-screen md:w-2/4">
+        <div class="text-cyan-700 font-bold">
+          <h2 class="text-xl">About Me</h2>
+        </div>
+        <p class="text-lg mb-2 py-3">
+          I am an experienced Senior Software Engineer with demonstrated abilities in all things UI Web Development.
+          Skilled in Front-End Frameworks, User Experience Design, Java, and Program Solutions. Strong engineering professional
+          with a MBA focused in Business Administration and Management. Certified UX Designer through Human Factors International.
+        </p>
+        <p class="text-lg">
+          My goal in any role is to deliver effective and complete solutions. My desire to understand how a system works end to end allows me to 
+          deliver the right solution in any situation. I am confident in my ability to step into a role and immediately provide value.
+        </p>
+      </div>
+      <div class="py-8 pr-64 sm:w-screen md:w-2/4 justify-start grid grid-cols-2">
+        <div class="text-cyan-700 font-bold col-span-2">
+          <h2 class="text-xl">My Skills</h2>
+        </div>
+        <div class="py-3 flex">
+          <img class="h-12 w-12 mr-6" src="images/html-1.svg" alt="TypeScript Logo">
+          <h3 class="text-lg font-semibold">HTML</h3>
+        </div>
+        <div class="py-3 flex">
+          <img class="h-12 w-12 mr-6" src="images/css-3.svg" alt="TypeScript Logo">
+          <h3 class="text-lg font-semibold">CSS</h3>
+        </div>
+        <div class="py-3 flex">
+          <img class="h-12 w-12 mr-6" src="images/logo-javascript.svg" alt="TypeScript Logo">
+          <h3 class="text-lg font-semibold">JavaScript</h3>
+        </div>
+        <div class="py-3 flex">
+          <img class="h-12 w-12 mr-6" src="images/typescript.svg" alt="TypeScript Logo">
+          <h3 class="text-lg font-semibold">TypeScript</h3>
+        </div>
+        <div class="py-3 flex">
+          <img class="h-12 w-12 mr-6" src="images/angular-icon-1.svg" alt="TypeScript Logo">
+          <h3 class="text-lg font-semibold">Angular</h3>
+        </div>
+        <div class="py-3 flex">
+          <img class="h-12 w-12 mr-6" src="images/java-4.svg" alt="TypeScript Logo">
+          <h3 class="text-lg font-semibold">Java</h3>
+        </div>
+        <div class="py-3 flex">
+          <img class="h-12 w-12 mr-6" src="images/spring-3.svg" alt="TypeScript Logo">
+          <h3 class="text-lg font-semibold">Spring Boot</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid bg-zinc-200 min-h-max p-24 content-center" id="experience">
+    <div class="sm:flex-wrap md:flex">
+      <div class="p-8 sm:w-screen md:w-1/3">
+        <div class="text-cyan-700 font-bold">
+          <h2 class="text-xl">UX Work</h2>
+        </div>
+
+        <div class="my-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <div class="h-48 w-full object-cover md:h-full md:w-48 flex bg-center bg-cover" style="background-image: url(images/board4.jpg)">
+                <a href="images/board4.jpg" class="cursor-pointer w-full h-full m-auto text-2xl flex justify-center items-center opacity-0 hover:opacity-100 backdrop-contrast-50 transition-all">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="uppercase tracking-wide text-sm text-cyan-700 font-semibold">Design Think Workshops</div>
+              <p class="mt-2 text-slate-500">Organize and lead Design Think Workshops to cultivate an environment for designing solutions using the User Centered Design process.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <div class="h-48 w-full object-cover md:h-full md:w-48 flex bg-center bg-cover" style="background-image: url(images/WFH-IA.jpg)">
+                <a href="images/WFH-IA.jpg" class="cursor-pointer w-full h-full m-auto text-2xl flex justify-center items-center opacity-0 hover:opacity-100 backdrop-contrast-50 transition-all">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="uppercase tracking-wide text-sm text-cyan-700 font-semibold">Information Architecture Diagrams</div>
+              <p class="mt-2 text-slate-500">Analyze data gathered in the User Centered Design Process to generate IA Diagrams.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <div class="h-48 w-full object-cover md:h-full md:w-48 flex bg-center bg-cover" style="background-image: url(images/dashboard1.png)">
+                <a href="images/dashboard1.png" class="cursor-pointer w-full h-full m-auto text-2xl flex justify-center items-center opacity-0 hover:opacity-100 backdrop-contrast-50 transition-all">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="uppercase tracking-wide text-sm text-cyan-700 font-semibold">Wireframes</div>
+              <p class="mt-2 text-slate-500">Create wireframes and prototypes iteratively to bring the design process to life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-8 sm:w-screen md:w-1/3">
+        <div class="text-cyan-700 font-bold">
+          <h2 class="text-xl">UI Work</h2>
+        </div>
+
+        <div class="my-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <div class="h-48 w-full object-cover md:h-full md:w-48 flex bg-center bg-cover"
+                style="background-image: url(images/angular-code-sample.png)">
+                <a href="images/angular-code-sample.png"
+                  class="cursor-pointer w-full h-full m-auto text-2xl flex justify-center items-center opacity-0 hover:opacity-100 backdrop-contrast-50 transition-all">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="uppercase tracking-wide text-sm text-cyan-700 font-semibold">Development</div>
+              <p class="mt-2 text-slate-500">Coding features in Angular framework with HTML, CSS, and TypeScript.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <div class="h-48 w-full object-cover md:h-full md:w-48 flex bg-center bg-cover"
+                style="background-image: url(images/reusable-library-sample.png)">
+                <a href="images/reusable-library-sample.png"
+                  class="cursor-pointer w-full h-full m-auto text-2xl flex justify-center items-center opacity-0 hover:opacity-100 backdrop-contrast-50 transition-all">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="uppercase tracking-wide text-sm text-cyan-700 font-semibold">Shared Components and Libraries</div>
+              <p class="mt-2 text-slate-500">Create scalable and flexible organization-wide UI components and libraries.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <div class="h-48 w-full object-cover md:h-full md:w-48 flex bg-center bg-cover"
+                style="background-image: url(images/WFHub-app-diagram.jpg)">
+                <a href="images/WFHub-app-diagram.jpg"
+                  class="cursor-pointer w-full h-full m-auto text-2xl flex justify-center items-center opacity-0 hover:opacity-100 backdrop-contrast-50 transition-all">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="uppercase tracking-wide text-sm text-cyan-700 font-semibold">Architecture Diagrams</div>
+              <p class="mt-2 text-slate-500">Build architecture diagrams of UI applications, from simple SPAs to complex multiple UI application suites.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="p-8 px-32 sm:w-screen md:w-1/3">
+        <div class="text-cyan-700 font-bold">
+          <h2 class="text-xl">Role History</h2>
+        </div>
+
+        <div class="my-8 max-w-md mx-auto md:max-w-2xl">
+            <ol class="border-l border-gray-300">
+              <li>
+                <div class="flex flex-start items-center pt-3">
+                  <div class="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
+                  <p class="text-gray-500 text-sm">Sept 2017 - Present</p>
+                </div>
+                <div class="mt-0.5 ml-4 mb-6">
+                  <h4 class="text-gray-800 font-semibold text-xl mb-1.5">UI/UX Architect</h4>
+                  <p class="text-gray-500 mb-3">Establish core UI structure for application suites using Angular or React.
+                    Influence a common UI/UX practice for teams to adopt and integrate into their
+                    SAFe practices organization wide.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="flex flex-start items-center pt-2">
+                  <div class="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
+                  <p class="text-gray-500 text-sm">Nov 2016</p>
+                </div>
+                <div class="mt-0.5 ml-4 mb-6">
+                  <h4 class="text-gray-800 font-semibold text-xl mb-1.5">Senior Software Engineer</h4>
+                  <p class="text-gray-500 mb-3">Lead project planning activities and communicate plans to executive leadership.
+                    Guide teams to build and maintain web applications using Java Spring and Angular
+                    frameworks.
+                </p>
+                </div>
+              </li>
+              <li>
+                <div class="flex flex-start items-center pt-2">
+                  <div class="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
+                  <p class="text-gray-500 text-sm">Jan 2014</p>
+                </div>
+                <div class="mt-0.5 ml-4 pb-5">
+                  <h4 class="text-gray-800 font-semibold text-xl mb-1.5">System Developer</h4>
+                  <p class="text-gray-500 mb-3">Develop web applications using Grails framework with jQuery/HTML.
+                    Plan projects and provide delivery estimates using Agile methodologies.
+                  </p>
+                </div>
+              </li>
+            </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid bg-zinc-900 text-gray-200 h-52 min-h-full p-24 content-center" id="contact">
+    <div class="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-around">
+      <a class="cursor-pointer px-3" title="LinkedIn" href="https://www.linkedin.com/in/hezekiah-phelps-44262687" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 hover:fill-cyan-700 transition-all" viewBox="0 0 24 24"
+          fill="currentColor">
+          <path
+            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+        </svg>
+      </a>
+      <a class="cursor-pointer px-3" title="Send E-mail" href="mailto: hphelps@live.com?subject=Request For Information">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 hover:fill-cyan-700 transition-all" viewBox="0 0 20 20"
+          fill="currentColor">
+          <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+        </svg>
+      </a>
+    </div>
+    <div class="flex justify-end p-8">
+      Made on GitHub Pages
+    </div>
+  </div>
+
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
-</html>
